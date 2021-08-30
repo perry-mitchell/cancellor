@@ -3,9 +3,16 @@
   "version": "0.0.0",
   "description": "Cancel token generator",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/perry-mitchell/cancellor.git"
@@ -20,5 +27,9 @@
     "url": "https://github.com/perry-mitchell/cancellor/issues"
   },
   "homepage": "https://github.com/perry-mitchell/cancellor#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.2"
+  }
 }
