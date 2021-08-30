@@ -1,0 +1,24 @@
+{
+  "name": "cancellor",
+  "version": "0.0.0",
+  "description": "Cancel token generator",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perry-mitchell/cancellor.git"
+  },
+  "keywords": [
+    "cancel",
+    "token"
+  ],
+  "author": "Perry Mitchell <perry@perrymitchell.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perry-mitchell/cancellor/issues"
+  },
+  "homepage": "https://github.com/perry-mitchell/cancellor#readme",
+  "dependencies": {}
+}
