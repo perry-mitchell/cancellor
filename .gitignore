@@ -1,3 +1,4 @@
 *.logs
+.nyc_output
 node_modules
 /dist
